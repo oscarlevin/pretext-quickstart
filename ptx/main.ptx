@@ -4,8 +4,8 @@
   <xi:include href="./bookinfo.ptx"/>
 
   <book xml:id="main">
-    <title>[title]</title>
-    <subtitle>[subtitle]</subtitle>
+    <title>{title}</title>
+    <subtitle>{subtitle}</subtitle>
     
     <xi:include href="./frontmatter.ptx"/>
 

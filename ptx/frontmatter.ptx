@@ -3,9 +3,9 @@
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
   <titlepage>
     <author>
-      <personname>[author]</personname>
-      <department>[department]</department>
-      <institution>[institution]</institution>
+      <personname>{author}</personname>
+      <department>{department}</department>
+      <institution>{institution}</institution>
     </author>
     <date><today/></date>
   </titlepage>

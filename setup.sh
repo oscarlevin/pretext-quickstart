@@ -15,6 +15,25 @@ installPTX () {
   ptxPath=$installpath
 }
 
+copyTemplate () {
+  install -d $projectPath
+  cp -R ptx $projectPath
+  cp -R xsl $projectPath
+  install -d $projectPath/latex
+  install -d $projectPath/html
+  install -d $projectPath/images
+  cp .gitignore $projectPath
+  cp Makefile $projectPath
+  cp Makefile.paths.original $projectPath
+  echo -e "\n\nCopied project template to $projectPath\n\n"
+}
+
+subInfo () {
+  sed -i "s/{title}/$title/g" $projectPath/ptx/*
+  sed -i "s/{subtitle}/$subtitle/g" $projectPath/ptx/*
+  sed -i "s/{author}/$author/g" $projectPath/ptx/*
+}
+
 #Find directories 'mathbook'
 ptxPaths=$(find ~/ -name "mathbook" -type d)
 # readarray -td, array <<< "$ptxPath"; declare -p array;
@@ -45,5 +64,17 @@ else
   ptxPath=${ptxPathArray[0]}
 fi
 echo -e "\nPreTeXt directory set to $ptxPath\n"
-# if 
-# installPTX
+
+
+# Set folder name and copy template there:
+read -p "Enter a name for the folder that will hold your project: " folderName
+projectPath="$(dirname "$PWD")"/${folderName}
+copyTemplate
+
+
+## Set up all the variables for the project:
+read -p "What is the title of the book? " title
+read -p "What is the subtitle of the book? (leave blank if none) " subtitle
+read -p "What is the name of the author of the book? " author
+
+subInfo

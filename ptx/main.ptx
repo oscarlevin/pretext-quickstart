@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mathbook xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+  <xi:include href="./bookinfo.ptx"/>
+
+  <book xml:id="main">
+    <title>[title]</title>
+    <subtitle>[subtitle]</subtitle>
+    
+    <xi:include href="./frontmatter.ptx"/>
+
+    <xi:include href="./ch_1.ptx"/>
+
+
+    <xi:include href="./backmatter.ptx"/>
+  </book>
+</mathbook>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
+  <titlepage>
+    <author>
+      <personname>[author]</personname>
+      <department>[department]</department>
+      <institution>[institution]</institution>
+    </author>
+    <date><today/></date>
+  </titlepage>
+
+  <colophon>
+    <website>
+      <name><c>[website]</c></name>
+      <address>[website]</address>
+    </website>
+
+    <copyright>
+      <year>[copyright-year]</year>
+      <holder>[copyright-holder]</holder>
+      <!-- <minilicense><image source="../images/by-sa.png" /></minilicense> -->
+      <shortlicense>
+        <!-- <image source="../images/by-sa.png" width="15%"/>  -->
+        This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/">http://creativecommons.org/licenses/by-sa/4.0/</url>
+      </shortlicense>
+
+    </copyright>
+
+  </colophon>
+
+  <!-- <dedication>
+    <p>
+      For ...
+    </p>
+  </dedication> -->
+
+  <!-- <acknowledgement>
+    <p>
+      This project would not have been possible without...
+    </p>
+  </acknowledgement> -->
+
+  <!-- <preface xml:id="preface">
+    <p>
+      This project...
+    </p>
+  </preface> -->
+  
+  
+</frontmatter>
+

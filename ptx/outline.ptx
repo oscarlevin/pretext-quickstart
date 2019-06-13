@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US"> -->
+  
+  <book xml:id="main">
+    <metadata>
+      <title>My Book</title>
+      <subtitle>Me</subtitle>
+    </metadata>
+    
+    
+    <outline>
+    <chapter>
+      <title>Chapter 1</title>
+      
+      <section>
+        <title>Section 1.1</title>
+      </section>
+      <section xml:id="sec-1-2">
+        <title>Another section in chapter 1</title>
+      </section>
+    </chapter>
+    <chapter xml:id="ch-second">
+      <title>Another Chapter</title>
+    </chapter>
+
+  </outline>      
+  </book>  
+<!-- </pretext> -->
+

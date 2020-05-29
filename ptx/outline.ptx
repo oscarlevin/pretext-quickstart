@@ -4,15 +4,13 @@
   
   <book xml:id="main">
     <metadata>
-      <title>My Book</title>
-      <subtitle>Me</subtitle>
+      <title>A test book</title>
+      <subtitle>for testing</subtitle>
+      <author>Oscar Levin</author>
     </metadata>
-    
-    
     <outline>
     <chapter>
-      <title>Chapter 1</title>
-      
+      <title>Chapter 1</title>    
       <section>
         <title>Section 1.1</title>
       </section>
@@ -23,7 +21,6 @@
     <chapter xml:id="ch-second">
       <title>Another Chapter</title>
     </chapter>
-
   </outline>      
   </book>  
 <!-- </pretext> -->
